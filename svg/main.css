@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  border: 1px solid black;
+}
+nav .logo {
+  color: black;
+}
+nav .logo svg {
+  display: inline-block;
+}
+nav .logo .menu {
+  display: inline-block;
+}
+nav .logo .menu ul li {
+  display: inline-block;
+}
+nav .botonera button {
+  display: inline-block;
+}
+
+.texto1 {
+  margin-top: 5rem;
+  max-width: 30%;
+  text-align: left;
+}
+.texto1 .texto {
+  width: 30vw;
+  position: absolute;
+}
+.texto1 .texto h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.texto1 svg {
+  position: relative;
+}
+
+.caracteristicas h3 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.caracteristicas .container {
+  display: flex;
+  justify-content: center;
+}
+.caracteristicas .container figure {
+  animation: aparecer 5s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in;
+}
+.caracteristicas .container article {
+  width: 28%;
+}
+
+.rotate {
+  animation: rotar 4s;
+  animation-timing-function: ease-in;
+}
+
+.cube {
+  width: 50px;
+  height: 80px;
+  background-color: gray;
+}
+
+.precios {
+  text-align: center;
+}
+.precios h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.precios svg {
+  width: 1200px;
+  position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.contenedor {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rotar {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
