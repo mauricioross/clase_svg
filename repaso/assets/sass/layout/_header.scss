@@ -1,0 +1,72 @@
+@import "reset";
+
+.texto1 {
+  margin-top: 5rem;
+  max-width: 30%;
+  text-align: left;
+
+  .texto {
+    width: 30vw;
+    position: absolute;
+    h1{
+      font-size: 36px;
+      font-weight: 600;
+    }
+  }
+  svg {
+    position: relative;
+  }
+}
+.caracteristicas {
+  h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    figure {
+
+      animation: aparecer 5s;
+      animation-delay: 2s;
+      animation-timing-function: ease-in;
+    }
+    article {
+      width: 28%;
+    }
+  }
+}
+.rotate {
+  animation: rotar 4s;
+  animation-timing-function: ease-in;
+}
+.cube{
+  width: 50px;
+  height: 80px;
+  background-color: gray;
+}
+.precios{
+
+  text-align: center;
+  h2{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  svg {
+    width: 1200px;
+    position: relative;
+  }
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+.contenedor{
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}

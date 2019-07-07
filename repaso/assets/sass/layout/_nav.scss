@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  border: 1px solid black;
+  .logo {
+    color: black;
+    svg {
+      display: inline-block;
+    }
+    .menu {
+      display: inline-block;
+      background-color: red;
+      ul {
+        li {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .navigation {
+      position: relative;
+    }
+
+    .navigation__logo {
+      position: absolute;
+      top: 1.3rem;
+      left: 2.5em;
+      width: 50px;
+      height: 50px;
+      background: url('../images/Logo.svg');
+      background-repeat: no-repeat;
+    }
+      }
