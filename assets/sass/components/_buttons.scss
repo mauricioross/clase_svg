@@ -1,0 +1,78 @@
+.botonera {
+  justify-content: flex-end;
+  margin-right: 10%;
+  button {
+    display: inline-block;
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $bold;
+  }
+
+  .w3-blue:hover{
+    background-color: $middle-blue !important;
+    color: $white !important;
+  }
+
+  .w3-blue {
+    color: $white !important;
+    background-color: $ball-blue;
+  }
+
+  .w3-btn{
+    background-color: $white;
+  }
+
+  .w3-button {
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+
+  }
+
+}
+
+.btn-comprar {
+  display: flex;
+  margin-top:10px;
+  margin-bottom: 5px;
+
+
+  button {
+    display: inline-block;
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $bold;
+  }
+
+  .w3-blue:hover{
+    background-color: $middle-blue !important;
+    color: $white !important;
+  }
+
+  .w3-blue {
+    color: $white !important;
+    background-color: $ball-blue;
+    width: 100%;
+  }
+
+  .w3-btn{
+    background-color: $white;
+  }
+
+  .w3-button {
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+}

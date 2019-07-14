@@ -1,0 +1,144 @@
+.navigation {
+    position: relative;
+
+}
+
+.navigation__logo {
+  position: absolute;
+  top: 1rem;
+  left: 2.5em;
+  width: 50px;
+  height: 50px;
+  background: url('../images/Logo.svg');
+  background-repeat: no-repeat;
+}
+
+.collapsible {
+    text-align: right;
+    label {
+        display: block;
+        padding-top: .7em;
+        padding-bottom: .5em;
+        padding-right: 1em;
+        font-size: 1.9rem;
+    }
+}
+
+#menu {
+    display: none;
+}
+
+input:checked ~ .navigation__container {
+    max-height: 100%;
+}
+
+.navigation__container{
+    max-height: 0;
+    margin-top: 0em;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.navigation__list {
+    margin: inherit;
+    padding:inherit;
+
+
+
+
+}
+
+.navigation__item {
+    a {
+        display: block;
+        text-align: left;
+        padding: .2em;
+        font-family: $raleway;
+        font-size: 1.2rem;
+        font-weight: $regular;
+        color: $raising-black;
+        text-decoration: none;
+        font-size: $small;
+        padding-top: 1em;
+        margin-left: -1em;
+
+        &:hover {
+            color: $spanish-gray;
+        }
+    }
+}
+
+.button_primary{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+/* estilos para escritorios */
+
+@media only screen and (min-width: 992px) {
+  .navigation__logo {
+    position: absolute;
+    top: 1.3rem;
+    left: 2.5em;
+    width: 50px;
+    height: 50px;
+    background: url('../images/Logo.svg');
+    background-repeat: no-repeat;
+  }
+    .collapsible {
+        label {
+            display: none;
+        }
+    }
+    .navigation__container {
+        max-height: 100%;
+        padding: .7em 2em .5em 0;
+        overflow: visible;
+
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .navigation__container02 {
+        max-height: 30%;
+        padding: .7em 2em .5em 0;
+        overflow: visible;
+        display: inline-block;
+    }
+    .navigation__list {
+        display: flex;
+        justify-content: space-around;
+        margin: inherit;
+        padding:inherit;
+
+
+
+
+    }
+
+    .navigation__list02 {
+        display: flex;
+        justify-content: space-between;
+        margin: inherit;
+        padding: inherit;
+
+
+    }
+
+    .margin {
+        padding-left: 1px;
+    }
+    .navigation__item {
+        a {
+            padding: .8em 0em;
+            margin-right: 0rem;
+            font-size: 1rem;
+            font-weight: $regular;
+            font-size: $small;
+        }
+    }
+}
